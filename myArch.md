@@ -7,7 +7,7 @@
 
 <h1 id="one">STEP ONE<h1>
 
- updating time of system
+- updating time of system
 
 		timedatectl set-ntp true
 
@@ -128,7 +128,7 @@ lastly, you can logout /mnt. just use exit or CTRL+D. and you need umont /mnt, n
 
 <h1 id="two">STEP TWO<h1>
 
- check the network 
+- check the network 
 
     if you lost connection of Internet, you maybe use ip link to check netcard, and ip link eth0 up&dhcpcd eth0
 
