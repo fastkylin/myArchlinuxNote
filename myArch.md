@@ -1,12 +1,13 @@
 #We need an U disk which including a live system. we cat use command fdisk and dd to creat a live. After Start Archlinux from U disk. Chechking the Network connection. just use ip link to see the name of netcard.
 -
-[STEP ONE](#one)
+- [STEP ONE](#one)
 
-[STEP TWO](#two)
+- [STEP TWO](#two)
+
 
 <h1 id="one">STEP ONE<h1>
 
-- updating time of system
+ updating time of system
 
 		timedatectl set-ntp true
 
@@ -59,9 +60,7 @@
 
 - set locale
 <table><tr  align="center"><th>filename</th><th>content</th></tr>
-<tr align="center"><td>/etc/locale.gen</td><td>
-		en_US.UTF-8 UTF-8
-		zh_CN.UTF-8 UTF-8</td></tr>
+<tr align="center"><td>/etc/locale.gen</td><td>en_US.UTF-8 UTF-8<br>zh_CN.UTF-8 UTF-8</td></tr>
 </table>
 
 - run locale-gen
@@ -129,7 +128,7 @@ lastly, you can logout /mnt. just use exit or CTRL+D. and you need umont /mnt, n
 
 <h1 id="two">STEP TWO<h1>
 
-- check the network 
+ check the network 
 
     if you lost connection of Internet, you maybe use ip link to check netcard, and ip link eth0 up&dhcpcd eth0
 
