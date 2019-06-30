@@ -147,6 +147,10 @@ lastly, you can logout /mnt. just use exit or CTRL+D. and you need umont /mnt, n
 - install xterm xrandr
 
 		pacman -S xterm xorg-xinit xorg-xrandr
+		
+- install awesome 
+
+		pacman -S awesome
 
 - add an user for desktop 
 
