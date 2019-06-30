@@ -183,4 +183,9 @@ lastly, you can logout /mnt. just use exit or CTRL+D. and you need umont /mnt, n
 
 		pacman -S xf86-video-ati xf86-video-amdgpu
 		
+- 1080p
+
+		xrandr --newmode "1920x1080_60.00" 173.00  1920 2048 2248 2576  1080 1083 1088 1120 -hsync +vsync
+		xrandr --addmode monitorPort "1920x1080_60.00"
+		xrandr --output monitorPort --mode "1920x1080_60.00"		
 
