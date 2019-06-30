@@ -4,6 +4,8 @@
 
 - [STEP TWO](#two)
 
+- [OTHER](#other)
+
 
 <h1 id="one">STEP ONE<h1>
 
@@ -165,4 +167,12 @@ lastly, you can logout /mnt. just use exit or CTRL+D. and you need umont /mnt, n
 <table><tr  align="center"><th>filename</th><th>content</th></tr>
 <tr align=><td>/etc/username/.xporfile</td><td>export LANG=en_US.UTF-8<br>export LC_ALL=en_US.UTF-8<br>export GTK_IM_MODULE=fcitx<br>export QT_IM_MODULE=fcitx<br>export XMODIFIERS="@im=fcitx"</td></tr>
 </table>
+
+
+<h1 id="other">OTHER<h1>
+	
+- amdgpu
+		pacman -S xf86-video-ati xf86-video-amdgpu
+		
+
 
