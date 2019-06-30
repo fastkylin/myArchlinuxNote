@@ -1,4 +1,4 @@
-#We need an U disk which including a live system. we cat use command fdisk and dd to creat a live. After Start Archlinux from U disk. Chechking the Network connection. just use ip link to see the name of netcard.
+ #We need an U disk which including a live system. we cat use command fdisk and dd to creat a live. After Start Archlinux from U disk. Chechking the Network connection. just use ip link to see the name of netcard.
 -
 - [STEP ONE](#one)
 
@@ -95,7 +95,7 @@
 
 		passwd
 
-- install some important pockages
+- install some important packages
 
 		pacman -S networkmanager net-tools
 		systemctl enbale NetworkManager
@@ -145,9 +145,6 @@ lastly, you can logout /mnt. just use exit or CTRL+D. and you need umont /mnt, n
 - add an user for desktop 
 
 		useradd -g users -G wheel -s /sbin/nologin username
-- install kde environment
-
-    		pacman -S plasma kde-applications
 
 - install sddm
 
