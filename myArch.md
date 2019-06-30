@@ -170,9 +170,9 @@ lastly, you can logout /mnt. just use exit or CTRL+D. and you need umont /mnt, n
 
 
 <h1 id="other">OTHER<h1>
-	
+
 - amdgpu
+
 		pacman -S xf86-video-ati xf86-video-amdgpu
 		
-
 
