@@ -88,7 +88,10 @@
 <br>::1		localhost<br>127.0.0.1 myhostname.localdomain myhostname</td></tr>
 </table>
 
-
+- install linux
+	
+		pacman -S linux linux-firmware
+		
 - creat initramfs
 
 		mkinitcpio -p linux
@@ -148,7 +151,7 @@ lastly, you can logout /mnt. just use exit or CTRL+D. and you need umont /mnt, n
 
 		pacman -S xterm xorg-xinit xorg-xrandr
 		
-- install awesome 
+- (option)install awesome 
 
 		pacman -S awesome
 
@@ -156,11 +159,19 @@ lastly, you can logout /mnt. just use exit or CTRL+D. and you need umont /mnt, n
 
 		useradd -g users -G wheel -s /sbin/nologin username
 
-- install sddm
+- (option)install lightdm
+		
+		pacman -S lightdm lightdm-gtk-greeter
+
+- (option)install sddm
 
 		pacman -S sddm sddm-kcm
 		systemctl enable sddm
 
+-(option)install xfce4
+
+		pacman -S xfce4 xfce4-goodies
+		
 - install audio package
 
     		pacman -S alsa-utils pulseaudio pulseaudio-alsa
