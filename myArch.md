@@ -155,9 +155,9 @@ lastly, you can logout /mnt. just use exit or CTRL+D. and you need umont /mnt, n
 
 		pacman -S awesome
 
-- add an user for desktop 
+- (oprion)add an user for desktop 
 
-		useradd -g users -G wheel -s /sbin/nologin username
+		useradd -m -g users -G wheel -s /sbin/nologin username
 
 - (option)install lightdm
 		
@@ -168,15 +168,15 @@ lastly, you can logout /mnt. just use exit or CTRL+D. and you need umont /mnt, n
 		pacman -S sddm sddm-kcm
 		systemctl enable sddm
 
--(option)install xfce4
+- (option)install xfce4
 
 		pacman -S xfce4 xfce4-goodies
 		
-- install audio package
+- (option)install audio package
 
     		pacman -S alsa-utils pulseaudio pulseaudio-alsa
 
-- install fcitx
+- (option)install fcitx
 
     		pacman -S fcitx fcitx-rime fcitx-im kcm-fcitx
 
